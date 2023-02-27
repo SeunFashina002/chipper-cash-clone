@@ -8,8 +8,7 @@ const styles = StyleSheet.create({
 
   subContainer: {
     backgroundColor: "#f1f5f9",
-    marginTop: 30,
-    height: "90%",
+    height: "97%",
   },
 
   //home header styles
@@ -34,7 +33,7 @@ const styles = StyleSheet.create({
   },
   myCash: {
     fontWeight: "900",
-    color: "#1e3a8a",
+    color: "#312e81",
   },
 
   textStyle: {
@@ -69,7 +68,7 @@ const styles = StyleSheet.create({
   updateContainer: {
     paddingHorizontal: 30,
     paddingVertical: 20,
-    height: "45%",
+    height: "63%",
   },
   innerContainer: {
     height: "100%",
@@ -78,7 +77,7 @@ const styles = StyleSheet.create({
   },
   updateSubContainer: {
     flexDirection: "row",
-    backgroundColor: "#1e3a8a",
+    backgroundColor: "#312e81",
     padding: 15,
     justifyContent: "space-between",
     width: "100%",
@@ -112,6 +111,72 @@ const styles = StyleSheet.create({
   },
 
   //   Transactions Style
+  transactionSubContainer: {
+    flexDirection: "column",
+    paddingVertical: 10,
+    paddingHorizontal: 12,
+    height: "100%",
+    marginBottom: 10,
+  },
+  transactionInnerContainer: {
+    flexDirection: "row",
+    height: "100%",
+    marginBottom: "auto",
+    // borderWidth: 3,
+  },
+
+  transactionImgContainer: {
+    width: "10%",
+    height: "40%",
+  },
+
+  transactionImg: {
+    width: "100%",
+    height: "100%",
+    borderRadius: 50,
+  },
+  transactionActionContainer: {
+    width: "65%",
+    height: "50%",
+    marginLeft: 10,
+    marginRight: "auto",
+    flexDirection: "column",
+  },
+  transactionAction: {
+    width: "100%",
+    fontWeight: "700",
+    fontSize: 16,
+  },
+
+  // Cta style
+
+  ctaContainer: {
+    paddingHorizontal: 15,
+    paddingVertical: 5,
+    backgroundColor: "#fff",
+    height: "9.4%",
+  },
+
+  ctaSubContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    // borderWidth: 1,
+    height: "100%",
+  },
+
+  ctaBtnContainer: {
+    width: "48%",
+    height: "100%",
+    // borderWidth: 1,
+  },
+
+  ctaBtns: {
+    width: "100%",
+    height: "100%",
+    borderRadius: 25,
+    alignItems: "center",
+    justifyContent: "center",
+  },
 });
 
 export default styles;
