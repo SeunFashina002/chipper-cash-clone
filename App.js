@@ -1,19 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import {Text, View } from 'react-native';
-import styles from './styles';
-import { HomeHeader } from './components/HomeHeader';
-import { Hero } from './components/Hero';
-import { Transactions } from './components/Transactions';
+import { StatusBar } from 'expo-status-bar'
+import { View } from 'react-native'
+import styles from './styles'
+import { HomeScreen } from './components/screens/Home'
+import { MyTabs } from './components/BottomTabs'
+import { NavigationContainer } from "@react-navigation/native"
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <NavigationContainer>
+      <View style={styles.container}></View>
       <View style={styles.subContainer}>
-        <HomeHeader />
-        <Hero />
-        <Transactions/>
-      </View>
+        <MyTabs/>
+        </View>
       <StatusBar style="light" />
-    </View>
+    </NavigationContainer>
   );
 }
+
+
