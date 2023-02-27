@@ -5,7 +5,7 @@ import styles from "../styles";
 
 export const Hero = () => {
   return (
-    <View style={{ padding: 12 }}>
+    <View style={{ paddingHorizontal: 12, height:300}}>
       <View style={styles.heroPaymentContainer}>
         {DATA.map((item, index) => {
           return (
