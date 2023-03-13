@@ -1,7 +1,7 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { ReferralScreen } from "./screens/Referral";
-import { StockScreen } from "./screens/Stocks";
-import { CardScreen } from "./screens/Cards";
+import { StockScreen } from "./screens/Stock";
+import { CardScreen } from "./screens/CardScreen";
 import { HomeScreen } from "./screens/Home";
 
 
@@ -49,7 +49,7 @@ export const MyTabs = () => {
         name="StockScreen"
         component={StockScreen}
         options={{
-          tabBarLabel: "Stocks",
+          tabBarLabel: "Invest",
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="bitcoin" size={size} color={color} />
           ),
