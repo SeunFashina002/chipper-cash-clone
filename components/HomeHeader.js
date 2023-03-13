@@ -5,6 +5,7 @@ import styles from "../styles";
 // icons
 import { AntDesign } from "@expo/vector-icons";
 import { Feather } from "@expo/vector-icons";
+import { Entypo } from "@expo/vector-icons";
 
 
 export const HomeHeader = () => {
@@ -17,7 +18,7 @@ export const HomeHeader = () => {
 
         <TouchableOpacity style={styles.myCashContainer}>
           <Text style={styles.myCash}>My Cash</Text>
-        <AntDesign name="down" size={15} style={styles.myCash}/>
+          <Entypo name="chevron-small-down" size={24} style={styles.myCash} />
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.homeIcons}>
