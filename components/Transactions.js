@@ -56,8 +56,8 @@ export const Transactions = () => {
 
   
   return (
-    <View style={styles.transactionContainer}>
+    <>
       {UserTransactions}
-    </View>
+    </>
   );
 };
